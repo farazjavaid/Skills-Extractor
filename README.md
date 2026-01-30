@@ -118,15 +118,15 @@ The system uses a `skill_patterns.json` file to configure skill extraction behav
 
 ```bash
 # Step 1: Create skills database
-python skills_simple.py --input "C:\Users\kamra\Documents\Blitz Hiring\Blitz Website\SynapseScope\Leadership\Skill Module\Libraries\Skills refined library\Skill_Class\skills_classification_output.xlsx"
+python skills_simple.py --input "C:\[Users]\Documents\Leadership\Skill Module\Libraries\Skills refined library\Skill_Class\skills_classification_output.xlsx"
 
 # Step 2: Extract skills from a resume
-python extractorv6.py --preprocessed "C:\Users\kamra\Downloads\skills.db" --resume "C:\Users\kamra\Downloads\resume1.docx" --text-output --text-file "C:\Users\kamra\Downloads\skill_ids.txt"
+python extractorv6.py --preprocessed "C:\Users\skills.db" --resume "C:\[Users]\Downloads\resume1.docx" --text-output --text-file "C:\[Users]\Downloads\skill_ids.txt"
 
 # View the results in your browser and check the text output file
 # Default results locations:
-# - HTML: C:\Users\kamra\Downloads\skills_output.html
-# - Text: C:\Users\kamra\Downloads\skill_ids.txt
+# - HTML: C:\Users\[User]\Downloads\skills_output.html
+# - Text: C:\Users\[User]\Downloads\skill_ids.txt
 ```
 
 <!-- Freeze -->
